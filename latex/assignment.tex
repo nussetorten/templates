@@ -1,0 +1,86 @@
+\documentclass{article}
+
+%%
+%% Packages
+%%
+
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{enumerate,enumitem}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{mathtools}
+\usepackage[cm]{fullpage}
+
+%%
+%% Macros
+%%
+
+\newcommand{\assignment}{1}                     %% Assignment number
+\newcommand{\group}{N/A}                        %% Group name
+\newcommand{\nameA}{Nicholas G. Vitovitch}      %% Name
+\newcommand{\term}{Fall 2016}                   %% The current term
+\newcommand{\coursenumber}{CSCI-GA.2110-003}    %% Course number
+\newcommand{\coursename}{Programming Languages} %% Course name
+\newenvironment{problem}[2][Problem]
+{\begin{trivlist}\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries \assignment.#2.}]}
+{\end{trivlist}}
+
+\begin{document}
+
+%%
+%% Global style
+%%
+
+\thispagestyle{empty}
+\pagestyle{empty}
+\parindent 0in
+
+%%
+%% Header
+%%
+
+\textbf{\nameA}\hfill\textbf{\coursenumber ~-- \coursename}\\
+\textbf{\term}\\
+\textbf{Homework \assignment}\\
+
+%%
+%% Problem 1
+%%
+
+\begin{problem}{1}
+Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.
+\end{problem}
+\begin{proof}[Answer]
+My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?
+\end{proof}
+
+\medskip 
+
+%%
+%% Problem 2
+%%
+
+\begin{problem}{2}
+Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.
+\begin{verbatim}
+public static int f (int x)
+{
+  if (x == 0)
+    return 0;
+  return 1 + g(x - 1);
+}
+public static int g (int x)
+{
+  if (x == 0)
+    return 0;
+  return 2 + f(x - 1);
+}
+\end{verbatim}
+\end{problem}
+\begin{proof}[Answer]
+Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.
+\end{proof}
+
+\medskip 
+
+\end{document} 
